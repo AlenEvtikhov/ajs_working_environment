@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "babel src -d dist",
-    "test": ""
+    "test": "",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,8 @@
   "devDependencies": {
     "@babel/cli": "^7.18.10",
     "@babel/core": "^7.18.13",
-    "@babel/preset-env": "^7.18.10"
+    "@babel/preset-env": "^7.18.10",
+    "eslint": "^8.23.0"
   },
   "dependencies": {
     "core-js": "^3.25.0"
